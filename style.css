@@ -16,7 +16,7 @@ body {
   background: white;
   padding: 2rem;
   border-radius: 12px;
-  width: min(96vw, 380px);
+  width: min(96vw, 500px);
   text-align: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }

@@ -14,7 +14,7 @@ body {
 
 .app {
   background: white;
-  padding: 0.2rem;
+  padding: 0.7rem;
   border-radius: 12px;
   width: min(98vw, 380px);
   text-align: center;
@@ -23,20 +23,23 @@ body {
 
 .search {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.3rem;
+  text-align: center;
   margin-bottom: 1rem;
-  width: 100%;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 95%;
 }
 
 input {
   flex: 1;
   min-width: 0;
-  padding: 0.5rem;
+  padding: 0.3rem;
   font-size: clamp(16px, 1.2rem, 18px);
 }
 
 button {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
   cursor: pointer;
   border: none;
   background: #4a6cf7;

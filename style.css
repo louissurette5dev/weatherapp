@@ -16,7 +16,7 @@ body {
   background: white;
   padding: 2rem;
   border-radius: 12px;
-  width: 320px;
+  width: min(90vw, 380px);
   text-align: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
@@ -25,11 +25,13 @@ body {
   display: flex;
   gap: 0.5rem;
   margin-bottom: 1rem;
+  width: 100%;
 }
 
 input {
   flex: 1;
   padding: 0.5rem;
+  font-size: clamp(16px, 1.2rem, 18px);
 }
 
 button {
@@ -39,6 +41,7 @@ button {
   background: #4a6cf7;
   color: white;
   border-radius: 4px;
+  font-size: clamp(16px, 1.2rem, 18px);
 }
 
 button:hover {

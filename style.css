@@ -30,6 +30,7 @@ body {
 
 input {
   flex: 1;
+  min-width: 0;
   padding: 0.5rem;
   font-size: clamp(16px, 1.2rem, 18px);
 }
@@ -42,6 +43,7 @@ button {
   color: white;
   border-radius: 4px;
   font-size: clamp(16px, 1.2rem, 18px);
+  white-space: nowrap;
 }
 
 button:hover {

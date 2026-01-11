@@ -14,9 +14,9 @@ body {
 
 .app {
   background: white;
-  padding: 2rem;
+  padding: 1.5rem;
   border-radius: 12px;
-  width: min(96vw, 500px);
+  width: min(98vw, 380px);
   text-align: center;
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
